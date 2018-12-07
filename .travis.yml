@@ -1,0 +1,34 @@
+sudo: false
+language: node_js
+node_js:
+  - '10'
+branches:
+  only:
+    - master
+cache:
+  directories:
+    - node_modules
+notifications:
+  email:
+    on_success: never
+    on_failure: always
+  webhooks:
+    urls:
+      - https://webhooks.gitter.im/e/d6e8722e284fbf3d51b2
+    on_success: change
+    on_failure: always
+install:
+  - npm install
+script:
+  - npm run test:all
+  - npm run coveralls
+after_success:
+  - npm run build
+deploy:
+  local-dir: dist
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN
+  name: 'Rebus bot'
+  on:
+    branch: master
