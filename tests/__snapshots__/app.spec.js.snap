@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests for app init renders the app into the root element 1`] = `
+Object {
+  "children": Array [
+    Object {
+      "children": Array [],
+      "componentDidMount": undefined,
+      "componentDidUpdate": undefined,
+      "props": Object {},
+      "render": [Function],
+      "update": [Function],
+    },
+    Object {
+      "children": Array [],
+      "componentDidMount": undefined,
+      "componentDidUpdate": undefined,
+      "props": Object {
+        "url": "https://github.com/ollelauribostrom/rebus",
+      },
+      "render": [Function],
+      "update": [Function],
+    },
+    Object {
+      "children": Array [],
+      "componentDidMount": undefined,
+      "componentDidUpdate": undefined,
+      "props": Object {
+        "className": "change-button--prev",
+        "onClick": [Function],
+      },
+      "render": [Function],
+      "update": [Function],
+    },
+    Object {
+      "children": Array [],
+      "componentDidMount": [Function],
+      "componentDidUpdate": [Function],
+      "props": Object {
+        "charInput": [Function],
+      },
+      "render": [Function],
+      "update": [Function],
+    },
+    Object {
+      "children": Array [],
+      "componentDidMount": undefined,
+      "componentDidUpdate": undefined,
+      "props": Object {
+        "className": "change-button--next",
+        "onClick": [Function],
+      },
+      "render": [Function],
+      "update": [Function],
+    },
+    Object {
+      "children": Array [],
+      "componentDidMount": undefined,
+      "componentDidUpdate": undefined,
+      "props": Object {},
+      "render": [Function],
+      "update": [Function],
+    },
+    Object {
+      "children": Array [],
+      "componentDidMount": undefined,
+      "componentDidUpdate": undefined,
+      "props": Object {},
+      "render": [Function],
+      "update": [Function],
+    },
+  ],
+  "componentDidMount": undefined,
+  "componentDidUpdate": undefined,
+  "props": Object {},
+  "render": [Function],
+  "update": [Function],
+}
+`;
